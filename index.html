@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GSAP | Project</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet" />
+</head>
+
+<body>
+
+    <div class="main">
+
+        <nav class="d-flex-c">
+            <div class="up-nav d-flex-c">
+                <div class="link-box d-flex-c">
+                    <div class="nav-link d-flex-c">
+                        <div class="nav-event d-flex-c">
+                            <a id="initialMenu" href="">EVENTS</a>
+                            <a id="hover-nav" href="">Events</a>
+                        </div>
+                        <div class="nav-who d-flex-c">
+                            <a id="initialMenu" href="">WHO WE ARE</a>
+                            <a id="hover-nav" href="">Who we are</a>
+                        </div>
+                        <div class="nav-demand d-flex-c">
+                            <a id="initialMenu" href="">ON DEMAND</a>
+                            <a id="hover-nav" href="">On demand</a>
+                        </div>
+                        <div class="nav-what d-flex-c">
+                            <a id="initialMenu" href="">WHAT WE DO</a>
+                            <a id="hover-nav" href="">What we do</a>
+                        </div>
+                        <div class="nav-contact d-flex-c">
+                            <a id="initialMenu" href="">CONTACT US</a>
+                            <a id="hover-nav" href="">Contact us</a>
+                        </div>
+                    </div>
+                    <div class="nav-icon d-flex">
+                        <a href=""><i class="ri-instagram-line"></i></a>
+                        <a href=""> <i class="ri-youtube-line"></i></a>
+                        <a href=""> <i class="ri-facebook-circle-line"></i></a>
+                        <a href=""><i class="ri-twitter-line"></i></a>
+                    </div>
+
+                </div>
+                <img src="./assets/img/navbar.svg" alt="navbar-bg">
+            </div>
+            <i class="ri-menu-line"></i>
+            <i class="ri-close-fill"></i>
+        </nav>
+
+        <div class="heading d-flex">
+            <img src="./assets/img/logo.svg" alt="">
+            <div class="cta d-flex">
+                <a href="#">JOIN COMMUNITY</a>
+                <a href="#">ENROLL NOW</a>
+            </div>
+        </div>
+
+        <div class="section section-1">
+            <div class="loading">
+                <div class="loadingPage loading-page-1"></div>
+                <div class="loadingPage loading-page-2"></div>
+                <div class="loadingPage loading-page-3  d-flex-c">
+
+                    <dotlottie-player
+                    id="scrub-1"
+                    src="https://cdn.prod.website-files.com/63bf3e1c32ea7ba16d1bdf88/63bf3e1c32ea7b91831bdfb6_marker_line_lottie.json"
+                    background="transparent" speed="1" autoplay>
+                    </dotlottie-player>
+                    <dotlottie-player
+                    id="scrub-2"
+                    src="https://cdn.prod.website-files.com/63bf3e1c32ea7ba16d1bdf88/63bf3e1c32ea7b91831bdfb6_marker_line_lottie.json"
+                    background="transparent" speed="1" autoplay>
+                    </dotlottie-player>
+
+                    <div class="header-txt">
+                        <h1>FLOW</h1>
+                    </div>
+                    <p class="mainP">THE FLOW PART IS A <span>safe</span>, INCLUSIVE ,
+                        AND FUN <br> SPACE FOR WEBSITE DEVELOPERS AND <span>designers.</span></p>
+                    <div class="badge d-flex">
+                        <img src="./assets/img/badge.svg" alt="Round-badge">
+                        <h3>PARTY </h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section section-2 ">
+        <div class="top-section-2 d-flex">
+            <h3 class="mainHeading ">EVENTS</h3>
+            <p class="mainP">OUR VIRTUAL EVENTS FEATURE THE <span>top talent</span>
+            IN THE DESIGN & DEVELOPMENT <span>space</span>.</p>
+        </div>
+        <div class="btm-section-2">
+
+        </div>
+        </div>
+
+    </div>
+
+    <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
