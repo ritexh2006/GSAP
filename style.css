@@ -84,12 +84,12 @@ nav {
 
 nav img {
     width: 25vw;
-    margin-top: -140px;
+    margin-top: -45px;
 }
 
 nav i {
     font-size: 1.5vw;
-    margin-top: -150px;
+    margin-top: -50px;
 }
 
 .ri-menu-line {
@@ -108,14 +108,16 @@ nav i {
     width: 25vw;
     height: 20vw;
     background-color: #b3eb16;
-    border-radius: 150px 150px 0px 0px;
+    border-radius: 50px 50px 0px 0px;
     justify-content: start;
-    padding: 150px;
+    padding: 50px;
+    z-index: 999;
+    text-align: left;
 }
 
 .link-box a {
     text-decoration: none;
-    font-size: 1vw;
+    font-size: 14px;
     font-family: fontThree;
     height: 62px;
     transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.5s;
@@ -123,9 +125,10 @@ nav i {
 }
 
 .nav-link {
-    gap: 3vh;
+    gap: 0.8vh;
     align-items: start;
     width: 100%;
+    overflow: hidden;
 }
 
 .nav-event, .nav-who, .nav-demand, .nav-what, .nav-contact {
@@ -135,25 +138,25 @@ nav i {
     justify-content: start;
     align-items: start;
     overflow: hidden;
-    margin-bottom: 40px;
+    margin-bottom: 32px;
 }
 
 .nav-event:hover #initialMenu, .nav-who:hover #initialMenu, .nav-demand:hover #initialMenu, .nav-what:hover #initialMenu, .nav-contact:hover #initialMenu {
-    margin-top: -78px;
+    margin-top: -28px;
 }
 
 .nav-event #hover-nav, .nav-who:hover #hover-nav, .nav-demand:hover #hover-nav, .nav-what:hover #hover-nav, .nav-contact:hover #hover-nav {
     font-family: fontFour;
-    font-size: 72px;
+    font-size: 18px;
 }
 
 .nav-icon {
+    margin-bottom: -120px;
     gap: 0.8vw;
     z-index: 999;
 }
 
 .nav-icon a {
-    margin-top: 150px;
     color: #5A760F;
     cursor: pointer;
 }
